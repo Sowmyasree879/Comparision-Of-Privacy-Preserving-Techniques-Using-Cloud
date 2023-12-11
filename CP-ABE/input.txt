@@ -1,0 +1,10 @@
+Cloud computing is a technology that allows users to access and use computing resources (such as servers, storage, databases, networking, software) over the Internet. It has become a key enabler for various applications and services, providing scalability, flexibility, and cost-effectiveness.
+
+The implementation of privacy-preserving techniques in cloud computing is crucial to ensure the security and confidentiality of sensitive data. Attribute-Based Encryption (ABE) is one such technique that allows fine-grained access control to data based on attributes. CipherText-Policy Attribute-Based Encryption (CP-ABE) is a specific variant of ABE that is widely used for secure data sharing.
+
+In this scenario, we will explore the use of CP-ABE for implementing privacy-preserving techniques in mobile health (mHealth) applications. mHealth involves the use of mobile devices and communication technologies to support healthcare delivery, diagnosis, treatment, and monitoring. Secure data sharing in mHealth is essential to protect patient privacy and comply with regulations.
+
+Our goal is to develop a system where only authorized healthcare providers with specific attributes can access patient data stored in the cloud. CP-ABE allows us to define fine-grained access policies based on attributes such as medical specialty, authorization level, and geographic location.
+
+This script generates 1000 test cases, each using the content from "input.txt" as the original data. It performs encryption and decryption using AES for simplicity, and the results, including accuracy metrics, are saved in "CP-ABE_output.txt".
+
